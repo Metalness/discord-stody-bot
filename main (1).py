@@ -7,13 +7,13 @@ import pandas as pd
 # Setups
 client = commands.Bot(command_prefix='nerd ')
 
-df = pd.read_excel(r"C:\Users\user\Downloads\discord-stody-bot\Elements.xlsx", sheet_name=0)
+df = pd.read_excel(r".\Elements.xlsx", sheet_name=0)
 print(df)
 nameList = df['Name of the Element'].tolist()
 numberList = df['Atomic Number'].tolist()
 symbolList = df['Symbol of the Element'].tolist()
 
-facts = pd.read_excel(r"C:\Users\user\Downloads\discord-stody-bot\Facts.xlsx", sheet_name=0)
+facts = pd.read_excel(r".\Facts.xlsx", sheet_name=0)
 factList = facts['Facts'].tolist()
 
 
