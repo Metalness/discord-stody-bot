@@ -124,4 +124,4 @@ async def fact(ctx, arg):
     await ctx.send(fact)
 
 
-client.run('OTQ0NDg5MzU2NzYzMjMwMjI5.YhCWQg.ZY8tbp1Z9Imsn9QfBEsHzqMAQjc')
+client.run('TOKEN')//CLIENT SECRET I THINK
